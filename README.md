@@ -80,9 +80,6 @@ The objective is to evaluate how adder architecture impacts:
 ## Ripple Carry Adder (RCA)
 
 
-::contentReference[oaicite:0]{index=0}
-
-
 ### Definition
 
 A Ripple Carry Adder is a combinational circuit formed by cascading full adders, where the carry output of each stage is fed into the next stage.
@@ -110,10 +107,6 @@ The carry must propagate through all stages sequentially, which leads to increas
 ---
 
 ## Carry Lookahead Adder (CLA)
-
-
-::contentReference[oaicite:2]{index=2}
-
 
 ### Definition
 
@@ -192,11 +185,5 @@ This ensures a fair comparison between architectures.
 
 ---
 
-## Core Insight
-
-Architecture defines theoretical performance,  
-but physical design determines whether timing closure is achievable.
-
----
 
 
