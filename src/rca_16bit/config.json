@@ -1,0 +1,14 @@
+{
+  "DESIGN_NAME": "rca_16bit_top",
+  "VERILOG_FILES": "dir::src/*.v",
+  "FP_PIN_ORDER_CFG": "dir::pin_order.cfg",
+  "CLOCK_PORT": "clk",
+  "CLOCK_NET": "clk",
+  "CLOCK_PERIOD": 5,
+  "FP_SIZING": "absolute",
+  "DIE_AREA": "0 0 150 150",
+  "CORE_AREA": "10 10 140 140",
+  "FP_PDN_ENABLE": 1,
+  "MAX_FANOUT_CONSTRAINT": 6,
+  "SYNTH_STRATEGY": "DELAY 0"
+}
