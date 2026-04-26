@@ -35,51 +35,6 @@ College of Engineering, Guindy, Anna University
 ## Ripple Carry Adder (RCA)
 
 
-::contentReference[oaicite:0]{index=0}
-
-
-### Definition
-
-A Ripple Carry Adder is a combinational circuit formed by cascading full adders, where the carry output of each stage is fed into the next stage.
-
-### Operation
-
-Each stage computes:
-
-- Sum = A ⊕ B ⊕ Cin  
-- Cout = AB + ACin + BCin  
-
-Carry propagation:
-# OpenLane RCA vs CLA using Sky130
-
----
-
-## Overview
-
-This project presents a comparative ASIC implementation of:
-
-- Ripple Carry Adder (RCA)
-- Carry Lookahead Adder (CLA)
-
-across:
-
-- 4-bit designs  
-- 16-bit designs  
-
-using the OpenLane RTL-to-GDS flow on the Sky130 PDK.
-
-The objective is to evaluate how adder architecture impacts:
-
-- Timing (critical path delay, slack)
-- Area (cell count, utilization)
-- Power
-- Routing complexity
-
----
-
-## Ripple Carry Adder (RCA)
-
-
 ### Definition
 
 A Ripple Carry Adder is a combinational circuit formed by cascading full adders, where the carry output of each stage is fed into the next stage.
@@ -95,7 +50,7 @@ Carry propagation:
 Cin → C1 → C2 → ... → CN
 
 
-The carry must propagate through all stages sequentially, which leads to increased delay as bit-width increases. :contentReference[oaicite:1]{index=1}
+The carry must propagate through all stages sequentially, which leads to increased delay as bit-width increases. :
 
 ### Characteristics
 
@@ -123,7 +78,7 @@ Carry computation is derived using combinational logic:
 Ci = Gi + PiCi-1 (expanded recursively)
 
 
-Instead of waiting for carry propagation, CLA predicts carries in parallel, significantly reducing delay. :contentReference[oaicite:3]{index=3}
+Instead of waiting for carry propagation, CLA predicts carries in parallel, significantly reducing delay. 
 
 ### Characteristics
 
