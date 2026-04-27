@@ -31,6 +31,43 @@ B.E. Electronics and Communication Engineering
 College of Engineering, Guindy, Anna University
 
 ---
+## Project structure
+```
+Radix-4 Multiplier
+│
+├── src/
+│   ├── cla_16bit/
+│   │   ├── cla_16bit.v
+│   │   ├── cla_16bit_top.v
+│   │   ├── cla_4bit_block.v
+│   │   ├── config.json
+│   │   └── pin_order.cfg
+│   │
+│   ├── cla_4bit/
+│   │   ├── cla_4bit.v
+│   │   ├── cla_4bit_top.v
+│   │   ├── config.json
+│   │   └── pin_order.cfg
+│   │
+│   ├── rca_16bit/
+│   │   ├── rca_16bit.v
+│   │   ├── rca_16bit_top.v
+│   │   ├── config.json
+│   │   └── pin_order.cfg
+│   │
+│   └── rca_4bit/
+│       ├── rca_4bit.v
+│       ├── rca_4bit_top.v
+│       ├── config.json
+│       └── pin_order.cfg
+│
+├── 16bit_analysis.md
+├── 4bit_analysis.md
+├── final_comparison.md
+└── README.md
+```
+
+---
 
 ## Ripple Carry Adder (RCA)
 
