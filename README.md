@@ -68,6 +68,10 @@ Radix-4 Multiplier
 ```
 
 ---
+## Tools Used
+  
+- **OpenLane (Sky130 PDK)**
+---
 
 ## Ripple Carry Adder (RCA)
 
