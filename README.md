@@ -26,7 +26,7 @@ The objective is to evaluate how adder architecture impacts:
 
 ## Author
 
-Priyadharshan L  
+**Priyadharshan L**  
 B.E. Electronics and Communication Engineering  
 College of Engineering, Guindy, Anna University
 
